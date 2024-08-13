@@ -10,7 +10,7 @@ I'm passionate about technology and love working on innovative projects that mak
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 😄 Pronouns: he/him
-- ⚡ Fun fact: I have started a lithium fire more times than fingers on my hand (By Mistake)
+- ⚡ Fun fact: I have started a chemical fire more times than fingers on my hand (By Mistake)
 
 ### 📫 How to Reach Me
 
