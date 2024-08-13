@@ -19,3 +19,4 @@ Feel free to reach out to me through any of the platforms below:
 [website]: https://funboyprojects.com/
 [instagram]: https://www.instagram.com/aaadi_b/
 [linkedin]: https://www.linkedin.com/in/aaditya-bhatia-170b76187/
+
