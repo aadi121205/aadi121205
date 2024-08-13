@@ -2,26 +2,6 @@
 
 Welcome to my GitHub profile! I'm excited to share my projects, skills, and experiences with you.
 
----
-
-### 🛠️ Skills
-
-- ⚙️ **Skill 1**: Brief description or expertise level
-- ⚙️ **Skill 2**: Brief description or expertise level
-- ⚙️ **Skill 3**: Brief description or expertise level
-- ...
-
----
-
-### 🌐 Languages
-
-- 🌍 **Language 1**: Proficiency level (e.g., Native, Fluent, Intermediate)
-- 🌍 **Language 2**: Proficiency level (e.g., Native, Fluent, Intermediate)
-- 🌍 **Language 3**: Proficiency level (e.g., Native, Fluent, Intermediate)
-- ...
-
----
-
 ### 💬 About Me
 
 I'm passionate about technology, and I love working on innovative projects that make a difference. When I'm not coding, you can find me exploring new places, learning new skills, or connecting with like-minded people.
