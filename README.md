@@ -1,10 +1,6 @@
-## Hi there 👋
-
-Welcome to my GitHub profile! I'm excited to share my projects, skills, and experiences with you.
-
 ### 💬 About Me
 
-I'm passionate about technology, and I love working on innovative projects that make a difference. When I'm not coding, you can find me exploring new places, learning new skills, or connecting with like-minded people.
+I'm passionate about technology and love working on innovative projects that make a difference. When I'm not coding, you can find me exploring new places, learning new skills, or connecting with like-minded people. I am currently a Software Tech at UAS-DTU and also work as a freelance host, building websites and game servers.
 
 ---
 
