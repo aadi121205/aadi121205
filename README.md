@@ -14,3 +14,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+[website]: https://funboyprojects.com/
+[instagram]: https://www.instagram.com/aaadi_b/
+[linkedin]: https://www.linkedin.com/in/aaditya-bhatia-170b76187/
+
+#### Sociai Networks
+
+🏡 [website][website] **|** 
+📷 [instagram][instagram] **|** 
+👔 [linkedin][linkedin]
