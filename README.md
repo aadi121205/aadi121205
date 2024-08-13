@@ -24,4 +24,4 @@ Here are some ideas to get you started:
 
 🏡 [website][website] **|** 
 📷 [instagram][instagram] **|** 
-👔 [linkedin][linkedin]
+👔 [linkedin][linkedin] **|**
