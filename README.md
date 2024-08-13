@@ -18,7 +18,8 @@ Feel free to reach out to me through any of the platforms below:
 
 🏡 [Website][website] **|** 
 📷 [Instagram][instagram] **|** 
-👔 [LinkedIn][linkedin]
+👔 [LinkedIn][linkedin] **|**
+
 
 [website]: https://funboyprojects.com/
 [instagram]: https://www.instagram.com/aaadi_b/
