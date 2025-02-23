@@ -1,0 +1,171 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{fancyhdr}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/aayush-kumar-255616224/}{\Large Aaditya Bhatia}} & Email: \href{mailto:aaditya.tec@gmail.com}{aaditya.tec@gmail.com} \\
+  \href{https://www.linkedin.com/in/aaditya-bhatia/}{linkedin.com/in/aaditya-bhatia} & Mobile: +91 9999697291 \\
+  \href{https://github.com/aadi121205}{github.com/aadi121205} & \href{https://aadityabhatia.com/}{aadityabhatia.com} \\
+\end{tabular*}
+
+\section{Education}
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Delhi Technological University}{Delhi, IN}
+      {Bachelor of Technology in Computer Science Engineering}{Aug 2023 -- May 2027}
+    \resumeSubheading
+      {The Heritage School}{Delhi, IN}
+      {High School Diploma in Science and Computer Science}{April 2019 -- April 2023}
+  \resumeSubHeadingListEnd
+
+\section{Experience}
+
+  \resumeSubHeadingListStart
+
+\resumeSubheading
+{Head of Computer Vision and GUI Deployment}{Sept 2023 -- Present}
+{UAS-DTU}{Delhi, IN}
+\resumeItemListStart
+
+  \resumeItem{Spearheaded the complete lifecycle design, development, and optimization of advanced computer vision pipelines—including Semantic Segmentation, ODLC, and Remote Physiological Signature Estimation—utilizing CNNs and autoencoders, which enhanced detection and classification accuracy by 20\%.}
+
+  \resumeItem{Architected and deployed a robust full-stack web application leveraging Flask, React, DroneKit (Python), Socket.IO, and Docker for real-time image analytics and telemetry visualization.}
+
+  \resumeItem{Contributed over 15,000 lines of high-quality code to a new codebase via Git, instituted industry-standard best practices (CI/CD, code reviews), and mentored a cross-functional team of 5 developers.}
+
+  \resumeItem{Pioneered research into state-of-the-art ViT, CLIP, and CNN architectures for potential medical applications within the DARPA Triage Challenge, focusing on rapid diagnostic image processing and remote patient monitoring.}
+
+  \resumeItem{Collaborated with hardware and flight teams to seamlessly integrate sophisticated computer vision algorithms onto UAV platforms, enabling autonomous target identification and real-time operational monitoring during field tests.}
+
+\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Projects \& Leadership}
+
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+      {\textbf{DARPA Triage Challenge} 
+       $|$ \emph{Python, PyTorch, Flask, React, TypeScript, Socket.IO, Docker}}
+       $|$ \emph{Python}}
+      {Jan 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Secured 2nd prize worth \$60,000 as a core member of the UAS-DTU software team in the DARPA Triage Challenge Phase 1 (Systems) under the non-funded category.}
+        \resumeItem{Developed a comprehensive React-based front-end application to control and monitor over 5 integrated hardware systems.}
+        \resumeItem{Implemented CLIP and ViT-based models for real-time blood loss and amputation detection.}
+        \resumeItem{Deployed solutions across high-performance servers and portable devices (e.g., Nvidia Jetson), further refining Bash scripting proficiency and deepening Linux expertise.}
+      \resumeItemListEnd
+      
+  \resumeProjectHeading
+      {\textbf{SIH 2022}
+       $|$ \emph{Python, Arduino, etc.}}
+       $|$ \emph{Python}}
+      {Jul 2022 -- Aug 2022}
+      \resumeItemListStart
+        \resumeItem{Led Team Falken to victory in the drones and robotics category.}
+        \resumeItem{Engineered an autonomous drone system designed for large-scale rescue operations.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\textbf{ICUAS 2024} 
+       $|$ \emph{Python, ROS 2, Docker, NumPy, PyTorch}}
+       $|$ \emph{Python}}
+      {Feb 2024 -- Sept 2024}
+      \resumeItemListStart
+        \resumeItem{Achieved 2nd place in the indoor simulation phase and secured 3rd overall in the International Conference of Unmanned Aerial Systems (ICUAS) 2024 Competition as part of team UAS-DTU.}
+        \resumeItem{Engineered an autonomous drone navigation system leveraging ROS 2 for real-time control and communication.}
+        \resumeItem{Containerized the development environment using Docker to ensure reproducible builds and streamlined deployments.}
+        \resumeItem{Utilized NumPy and PyTorch to implement advanced object detection and collision avoidance algorithms.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, SQL (Postgres), Java/TypeScript, HTML/CSS, Bash} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, ROS, CUDA, Material-UI, FastAPI} \\
+     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, Jetpack, Ubuntu, Debian-based OS} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib, PyTorch, OpenCV, TensorFlow} \\
+     \textbf{Hardware}{: Nvidia Jetson Nano, Nvidia Jetson Orin, Raspberry Pi, Tarot Peeper, Siyi A8 Mini, Intel NUC, Pixhawk Cube Orange/Black} }}
+ \end{itemize}
+
+\end{document}
