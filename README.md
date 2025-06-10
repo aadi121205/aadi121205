@@ -7,7 +7,7 @@ I'm passionate about technology and love working on innovative projects that mak
 - 🔭 I’m currently working on DARPA Triage Challenge (https://triagechallenge.darpa.mil/)
 - 🌱 I’m currently learning: Rust, GO, ViT
 - 😄 Pronouns: he/him
-- ⚡ Winner of SHI Jounier 2022
+- ⚡ Winner of SIH Jounier 2022
 - ⚡ Fun fact: I have started a chemical fire more times than fingers on my hand (By Mistake)
 
 ### 📫 How to Reach Me
