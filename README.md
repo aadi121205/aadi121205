@@ -1,10 +1,24 @@
-## Hi there 👋 I'm Aaditya Bhatia
+<h1 align="center">Hi, I'm Aaditya Bhatia</h1>
+<h3 align="center">A passionate student developer and tech enthusiast from Delhi, India</h3>
 
-### 💬 About Me
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aadi121205&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
+  <a href="https://github.com/aadi121205?tab=followers"><img src="https://img.shields.io/github/followers/aadi121205?label=Followers&style=flat&logo=github&color=0e75b6" alt="GitHub Followers"/></a>
+</p>
 
-I'm passionate about technology and love working on innovative projects that make a difference. When I'm not coding, you’ll find me exploring new places, learning new skills, or connecting with like-minded people.  
+> [!TIP]
+> Please go to my personal website for more info: <a href="https://aadityabhatia.com/" target="_blank">aadityabhatia.com</a>
 
-I'm currently a **Software Tech at UAS-DTU** and also work as a **freelancer**, helping clients with hosting, website development, and game server setup.
+Last Active on GitHub: **2025-07-12**
+
+---
+
+<h3 align="left">Organizations</h3>
+<p align="left">
+  Proud Member of <a href="https://github.com/UASDTU" target="_blank">UAS DTU</a>
+</p>
+
+---
 
 - 🔭 Currently working on the [DARPA Triage Challenge](https://triagechallenge.darpa.mil/)
 - 🌱 Learning: Rust, Go, Vision Transformers (ViT)
@@ -12,9 +26,11 @@ I'm currently a **Software Tech at UAS-DTU** and also work as a **freelancer**, 
 - 🏆 Winner of **SIH Junior 2022**
 - ⚡ Fun fact: I’ve accidentally started a chemical fire more times than I have fingers 😅
 
-### 📫 How to Reach Me
+---
+<h3 align="left">🚀 Featured Projects</h3>
 
-Feel free to connect with me on any of the platforms below:
+
+---
 
 🏡 [Website][website] 
 📷 [Instagram][instagram]   
@@ -25,3 +41,18 @@ Feel free to connect with me on any of the platforms below:
 [instagram]: https://www.instagram.com/aaadi_b/
 [linkedin]: https://www.linkedin.com/in/aaditya-bhatia-170b76187/
 [github]: https://aadi121205.github.io/
+
+
+---
+
+- 💬 Ask me about **HTML/CSS/JS, Swift, Full-stack development**
+- ⚡ Fun fact: I prefer tabs over spaces
+
+---
+
+<h3 align="center">GitHub Stats</h3>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aadi121205&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" /><br/>
+  <img src="https://github-readme-stats.vercel.app/api?username=aadi121205&show_icons=true&locale=en&theme=tokyonight" alt="Zigao Wang's GitHub stats" /><br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aadi121205&theme=tokyonight" alt="GitHub Streak" />
+</p>
