@@ -16,9 +16,9 @@ I'm currently a **Software Tech at UAS-DTU** and also work as a **freelancer**, 
 
 Feel free to connect with me on any of the platforms below:
 
-🏡 [Website][website] **|**  
-📷 [Instagram][instagram] **|**  
-👔 [LinkedIn][linkedin] **|**  
+🏡 [Website][website] 
+📷 [Instagram][instagram]   
+👔 [LinkedIn][linkedin] 
 💻 [GitHub Site][github]
 
 [website]: https://aadityabhatia.com/
