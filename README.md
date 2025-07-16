@@ -54,5 +54,4 @@ Last Active on GitHub: **2025-07-12**
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aadi121205&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" /><br/>
   <img src="https://github-readme-stats.vercel.app/api?username=aadi121205&show_icons=true&locale=en&theme=tokyonight" alt="Aadi's GitHub stats" /><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aadi121205&theme=tokyonight" alt="GitHub Streak" />
 </p>
