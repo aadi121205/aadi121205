@@ -52,5 +52,4 @@ Proud member of [UAS DTU](https://github.com/UASDTU)
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aadi121205&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" /><br/>
   <img src="https://github-readme-stats.vercel.app/api?username=aadi121205&show_icons=true&locale=en&theme=tokyonight" alt="Aadi's GitHub stats" /><br/>
-  <img src="https://github-readme-stats.vercel.app/api/followers/aadi121205?show_icons=true&locale=en&theme=tokyonight" alt="Followers" />
 </p>
