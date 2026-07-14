@@ -1,7 +1,9 @@
 \documentclass[letterpaper,11pt]{article}
+\usepackage{fancyhdr}
+
+\setlength{\footskip}{5pt}
 
 \usepackage{latexsym}
-\usepackage{fancyhdr}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -71,6 +73,14 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
+\newcommand{\resumeProjectHeadingTwoLine}[3]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{#1} & \textit{\small #3} \\
+      \small\emph{#2} & \\
+    \end{tabular*}\vspace{-7pt}
+}
+
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
@@ -79,10 +89,124 @@
 \begin{document}
 
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://www.linkedin.com/in/aayush-kumar-255616224/}{\Large Aaditya Bhatia}} & Email: \href{mailto:aaditya.tec@gmail.com}{aaditya.tec@gmail.com} \\
-  \href{https://www.linkedin.com/in/aaditya-bhatia/}{linkedin.com/in/aaditya-bhatia} & Mobile: +91 9999697291 \\
-  \href{https://github.com/aadi121205}{github.com/aadi121205} & \href{https://aadityabhatia.com/}{aadityabhatia.com} \\
+  \textbf{\href{https://aadityabhatia.com/}{\Large Aaditya Bhatia}} & Email: \href{mailto:aaditya.tec@gmail.com}{aaditya.tec@gmail.com} \\
+  \href{https://www.linkedin.com/in/aaditya-bhatia/}{Linkedin} & Mobile: +91 9999697291 \\
+  \href{https://github.com/aadi121205}{Github} & \href{https://aadityabhatia.com/}{aadityabhatia.com} \\
 \end{tabular*}
+
+\section{Experience}
+
+  \resumeSubHeadingListStart
+
+\resumeSubheading
+{Summer Technology Analyst Intern}{May 2026 -- Present}
+{Morgan Stanley}{Mumbai, IN}
+\resumeItemListStart
+
+  \resumeItem{Contributed to the modernization of a legacy internal platform, refactoring core modules onto a modern service-based stack and cutting manual developer workflows by \textbf{30\%+}.}
+
+  \resumeItem{Integrated \textbf{5+ MCP (Model Context Protocol) servers} and \textbf{multiple LLM/model APIs} into an internal AI chatbot, expanding it from a simple Q\&A assistant into an agentic system capable of multi-step tool use.}
+
+  \resumeItem{Built agentic integrations connecting the chatbot to internal tools and data sources, automating retrieval and actioning across \textbf{multiple internal systems} and reducing common lookup tasks from minutes to seconds.}
+
+\resumeItemListEnd
+
+\resumeSubheading
+{Software Head}{Sept 2023 -- Present}
+{UAS-DTU}{Delhi, IN}
+\resumeItemListStart
+
+  \resumeItem{Spearheaded the complete lifecycle design, development, and optimization of \textbf{3+ advanced computer vision pipelines}—including Semantic Segmentation, ODLC, and Remote Physiological Signature Estimation—utilizing CNNs and autoencoders, improving detection and classification accuracy by \textbf{20\%+}.}
+  \resumeItem{Architected and deployed a robust full-stack web application leveraging Flask, React, DroneKit (Python), Socket.IO, and Docker for real-time image analytics and telemetry visualization, used across \textbf{2 international competitions} and \textbf{5+ field deployments}.}
+\resumeItem{Pioneered research and implementation of state-of-the-art vision architectures, including ViTs, CLIP-based zero-shot models, and advanced CNN backbones, to support rapid medical triage within the \textbf{DARPA Triage Challenge (\$210K in prizes won)}. Integrated reinforcement learning-driven decision modules and multi-modal perception pipelines for casualty prioritization, context-aware scene understanding, and remote patient monitoring under real-world operational constraints.}
+
+\resumeItemListEnd
+
+\resumeSubheading
+{Research Intern in Wirocomm Lab}{Jun 2025 -- Oct 2025}
+{Indraprastha Institute of Information Technology, Delhi}{Delhi, IN}
+\resumeItemListStart
+
+  \resumeItem{Developed a Deep Q-Learning agent to optimize traffic signal control using SUMO simulations, reducing average vehicle wait times by \textbf{25\%+} over fixed-time baselines through deep reinforcement learning.}
+
+  \resumeItem{Implemented neural networks with Keras integrated with SUMO via TraCI, training agents across \textbf{1,000+ simulated episodes} of realistic urban traffic scenarios.}
+
+\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Achievements}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{DARPA Triage Challenge (Systems)}}{2024}
+\resumeItemListStart
+  \resumeItem{Secured \textbf{2nd place in Phase 1} (\$60,000) and \textbf{2nd place in Phase 2} (\$150,000) in the DARPA Triage Challenge (Hosted By US DOD)(Non-Funded Category) as a core contributor to UAS-DTU. Outperformed multiple university and industry teams across perception, autonomy, and triage decision-making benchmarks.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{International Conference on Unmanned Aerial Systems (ICUAS) 2024}}{2024}
+\resumeItemListStart
+  \resumeItem{Achieved \textbf{2nd place} in the indoor simulation phase and \textbf{3rd place overall} in the ICUAS 2024 competition as part of team UAS-DTU.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Smart India Hackathon}}{2022}
+\resumeItemListStart
+  \resumeItem{Winner in the \textbf{Drones and Robotics} Jr category, leading Team Falken.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeadingTwoLine
+{DARPA Triage Challenge — Real-Time GCS \& GUI Platform}
+{React, TypeScript, Flask, Socket.IO, Docker, Linux}
+{Jan 2024 -- Present}
+\resumeItemListStart
+  \resumeItem{Designed and implemented a scalable, real-time Ground Control System (GCS) for autonomous medical triage missions, enabling monitoring and control of \textbf{5+ heterogeneous UAV/UGV subsystems} from a single operator station.}
+  \resumeItem{Built a React + TypeScript frontend streaming \textbf{10+ concurrent} live telemetry, image, and casualty-state feeds into mission-level decision dashboards.}
+  \resumeItem{Architected a Flask + Socket.IO backend delivering \textbf{sub-second} communication between perception pipelines, autonomy modules, and distributed edge devices.}
+  \resumeItem{Containerized the full-stack system using Docker and deployed across high-performance Linux servers and edge platforms including Nvidia Jetson Orin NX.}
+\resumeItemListEnd
+
+\resumeProjectHeadingTwoLine
+{DARPA Triage Challenge — Reinforcement Learning–Based Triage Decision System}
+{Python, PyTorch, Reinforcement Learning, Multi-Modal AI}
+{Jan 2024 -- Present}
+\resumeItemListStart
+  \resumeItem{Developed reinforcement learning–driven decision modules for autonomous casualty prioritization under uncertain, partially observable disaster environments.}
+  \resumeItem{Integrated \textbf{3 modalities} of perception input—vision-based injury detection (CLIP, ViTs, CNNs), physiological signal estimates, and scene context—into RL state representations.}
+  \resumeItem{Designed reward functions to balance survival probability, response time, and limited resource allocation constraints.}
+  \resumeItem{Evaluated policies in simulated and real-world mission scenarios to enable context-aware triage recommendations with minimal human intervention.}
+\resumeItemListEnd
+
+\resumeProjectHeadingTwoLine
+{ICUAS 2024 — Autonomous Indoor Drone Navigation}
+{Python, ROS 2, Docker, NumPy, PyTorch}
+{Feb 2024 -- Sept 2024}
+\resumeItemListStart
+  \resumeItem{Developed a ROS 2-based autonomous navigation stack for indoor UAVs with real-time perception, localization, and control.}
+  \resumeItem{Implemented object detection and collision avoidance pipelines using NumPy and PyTorch.}
+  \resumeItem{Containerized the complete simulation and development environment using Docker for reproducible builds and rapid deployment.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, SQL (Postgres), Java/TypeScript, HTML/CSS, Bash, Fish, \LaTeX} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, FastAPI, ROS 2, CUDA, Material-UI, Socket.IO, DroneKit} \\
+     \textbf{AI/LLM}{: MCP (Model Context Protocol), LLM/Model APIs (Anthropic, OpenAI), Agentic Systems, Reinforcement Learning} \\
+     \textbf{Developer Tools}{: Git, Docker, Podman, GitHub Actions, TravisCI, Google Cloud Platform, VS Code, JetPack, Ubuntu/Debian, Arch Linux} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib, PyTorch, TensorFlow, Keras, OpenCV, SUMO/TraCI} \\
+     \textbf{Hardware}{: NVIDIA Jetson Nano, NVIDIA Jetson Orin, Raspberry Pi, Intel Realsense Tracking Cameras, LiDARs, Pixhawk Cube Orange/Black} }}
+ \end{itemize}
 
 \section{Education}
 
@@ -95,74 +219,5 @@
       {High School Diploma in Science and Computer Science}{April 2019 -- April 2023}
   \resumeSubHeadingListEnd
 
-\section{Experience}
-
-  \resumeSubHeadingListStart
-
-\resumeSubheading
-{Head of Computer Vision and GUI Deployment}{Sept 2023 -- Present}
-{UAS-DTU}{Delhi, IN}
-\resumeItemListStart
-
-  \resumeItem{Spearheaded the complete lifecycle design, development, and optimization of advanced computer vision pipelines—including Semantic Segmentation, ODLC, and Remote Physiological Signature Estimation—utilizing CNNs and autoencoders, which enhanced detection and classification accuracy by 20\%.}
-
-  \resumeItem{Architected and deployed a robust full-stack web application leveraging Flask, React, DroneKit (Python), Socket.IO, and Docker for real-time image analytics and telemetry visualization.}
-
-  \resumeItem{Contributed over 15,000 lines of high-quality code to a new codebase via Git, instituted industry-standard best practices (CI/CD, code reviews), and mentored a cross-functional team of 5 developers.}
-
-  \resumeItem{Pioneered research into state-of-the-art ViT, CLIP, and CNN architectures for potential medical applications within the DARPA Triage Challenge, focusing on rapid diagnostic image processing and remote patient monitoring.}
-
-  \resumeItem{Collaborated with hardware and flight teams to seamlessly integrate sophisticated computer vision algorithms onto UAV platforms, enabling autonomous target identification and real-time operational monitoring during field tests.}
-
-\resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-\section{Projects \& Leadership}
-
-\resumeSubHeadingListStart
-
-  \resumeProjectHeading
-      {\textbf{DARPA Triage Challenge} 
-       $|$ \emph{Python, PyTorch, Flask, React, TypeScript, Socket.IO, Docker}}
-      {Jan 2024 -- Present}
-      \resumeItemListStart
-        \resumeItem{Secured 2nd prize worth \$60,000 as a core member of the UAS-DTU software team in the DARPA Triage Challenge Phase 1 (Systems) under the non-funded category.}
-        \resumeItem{Developed a comprehensive React-based front-end application to control and monitor over 5 integrated hardware systems.}
-        \resumeItem{Implemented CLIP and ViT-based models for real-time blood loss and amputation detection.}
-        \resumeItem{Deployed solutions across high-performance servers and portable devices (e.g., Nvidia Jetson), further refining Bash scripting proficiency and deepening Linux expertise.}
-      \resumeItemListEnd
-      
-  \resumeProjectHeading
-      {\textbf{SIH 2022}
-       $|$ \emph{Python, Arduino, etc.}}
-      {Jul 2022 -- Aug 2022}
-      \resumeItemListStart
-        \resumeItem{Led Team Falken to victory in the drones and robotics category.}
-        \resumeItem{Engineered an autonomous drone system designed for large-scale rescue operations.}
-      \resumeItemListEnd
-
-  \resumeProjectHeading
-      {\textbf{ICUAS 2024} 
-       $|$ \emph{Python, ROS 2, Docker, NumPy, PyTorch}}
-      {Feb 2024 -- Sept 2024}
-      \resumeItemListStart
-        \resumeItem{Achieved 2nd place in the indoor simulation phase and secured 3rd overall in the International Conference of Unmanned Aerial Systems (ICUAS) 2024 Competition as part of team UAS-DTU.}
-        \resumeItem{Engineered an autonomous drone navigation system leveraging ROS 2 for real-time control and communication.}
-        \resumeItem{Containerized the development environment using Docker to ensure reproducible builds and streamlined deployments.}
-        \resumeItem{Utilized NumPy and PyTorch to implement advanced object detection and collision avoidance algorithms.}
-      \resumeItemListEnd
-
-\resumeSubHeadingListEnd
-
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, C/C++, SQL (Postgres), Java/TypeScript, HTML/CSS, Bash} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, ROS, CUDA, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, Jetpack, Ubuntu, Debian-based OS} \\
-     \textbf{Libraries}{: Pandas, NumPy, Matplotlib, PyTorch, OpenCV, TensorFlow} \\
-     \textbf{Hardware}{: Nvidia Jetson Nano, Nvidia Jetson Orin, Raspberry Pi, Tarot Peeper, Siyi A8 Mini, Intel NUC, Pixhawk Cube Orange/Black} }}
- \end{itemize}
-
 \end{document}
+
